@@ -1,0 +1,169 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA#0_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net #00002 
+   (rule
+   )
+   (wire (path BOT 25400  -4318000 -127000 -4572000 -127000 -4572000 -119000
+     -5762000 -119000)
+    (connect (terminal pin ARDU1-27) (terminal pin ARDU1-2))
+   )
+   )
+   (Net #00003 
+   (rule
+   )
+   (wire (path BOT 25400  -7251750 -2360250 -7251750 -471000 -8215000 -471000)
+    (connect (terminal pin HC1-3) (terminal pin R3-0))
+   )
+   (wire (path BOT 25400  -3032000 -2817000 -3032000 63000 -3377000 63000)
+    (connect (terminal pin MTR1-1) (terminal pin MPU1-1))
+   )
+   (wire (path TOP 25400  -5762000 -373000 -4572000 -373000 -4572000 127000
+     -4318000 127000)
+    (connect (terminal pin ARDU1-3) (terminal pin ARDU1-28))
+   )
+   (wire (path TOP 25400  -5762000 -373000 -6471589 -373000 -6471589 -471000
+     -8215000 -471000)
+    (connect (terminal pin ARDU1-3) (terminal pin R3-0))
+   )
+   (wire (path BOT 25400  -4318000 127000 -4000500 127000 -4000500 63000
+     -3377000 63000)
+    (connect (terminal pin ARDU1-28) (terminal pin MPU1-1))
+   )
+   )
+   (Net #00008 
+   (rule
+   )
+   (wire (path BOT 25400  -5762000 -1643000 -6032500 -1643000 -6032500 381000
+     -6681000 381000 -6681000 695000)
+    (connect (terminal pin ARDU1-8) (terminal pin R2-0))
+   )
+   (wire (path BOT 25400  -6681000 695000 -6827816 695000 -6865916 733100
+     -6935000 822000 -6935000 902000)
+    (connect (terminal pin R2-0) (terminal pin R1-1))
+    (type protect)
+   )
+   )
+   (Net #00009 
+   (rule
+   )
+   (wire (path BOT 25400  -5762000 -1897000 -5856100 -1945497 -5856100 -1977305
+     -5901617 -2022822 -5901617 -2058566 -6342483 -2499432 -6346987 -2503936
+     -6866064 -2503936 -6997750 -2372250 -6997750 -2360250)
+    (connect (terminal pin ARDU1-9) (terminal pin HC1-2))
+    (type protect)
+   )
+   )
+   (Net #00015 
+   (rule
+   )
+   (wire (path TOP 25400  -4318000 -3175000 -3770320 -3175000 -3770320 -3071000
+     -3032000 -3071000)
+    (connect (terminal pin ARDU1-15) (terminal pin MTR1-0))
+   )
+   )
+   (Net #00022 
+   (rule
+   )
+   (wire (path BOT 25400  -4318000 -1397000 -3619500 -1397000 -3619500 -445000
+     -3377000 -445000)
+    (connect (terminal pin ARDU1-22) (terminal pin MPU1-3))
+   )
+   )
+   (Net #00023 
+   (rule
+   )
+   (wire (path BOT 25400  -4318000 -1143000 -3746500 -1143000 -3746500 -191000
+     -3377000 -191000)
+    (connect (terminal pin ARDU1-23) (terminal pin MPU1-2))
+   )
+   )
+   (Net #00026 
+   (rule
+   )
+   (wire (path BOT 25400  -4318000 -381000 -4572000 -381000 -4572000 -3429000
+     -7505750 -3429000 -7505750 -2360250)
+    (connect (terminal pin ARDU1-26) (terminal pin HC1-4))
+   )
+   (wire (path TOP 25400  -3377000 317000 -3954748 317000 -3954748 -381000
+     -4318000 -381000)
+    (connect (terminal pin MPU1-0) (terminal pin ARDU1-26))
+   )
+   )
+   (Net #00033 
+   (rule
+   )
+   (wire (path BOT 25400  -6743750 -2360250 -6743750 -383750 -6681000 -321000)
+    (connect (terminal pin HC1-1) (terminal pin R2-1))
+    (type protect)
+   )
+   )
+   (Net #00035 
+   (rule
+   )
+   (wire (path BOT 25400  -7951000 902000 -7951000 672000 -8070428 552572
+     -8126100 552572 -8215000 545000)
+    (connect (terminal pin R1-0) (terminal pin R3-1))
+    (type protect)
+   )
+   )
+  )
+ )
